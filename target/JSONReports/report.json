@@ -1,0 +1,63 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-02T02:37:18.292Z",
+        "line": 3,
+        "name": "",
+        "description": "",
+        "id": "check-login-functionality;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "user is on login page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 431000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user enters valid username and password",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 327000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "clicks on login button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 882000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user is navigated to the home page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Check login functionality",
+    "description": "",
+    "id": "check-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/HooksDemo/HooksDemo.feature",
+    "tags": []
+  }
+]
